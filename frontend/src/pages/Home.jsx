@@ -389,7 +389,7 @@ const Home = () => {
                             users && users.length > 0 ? <div className=''>
                                 {users.filter(obj => obj._id !== user._id).map(user =>
                                     <h4 onClick={() => handleSelectUser(user)}
-                                        className={`py-2 ${user._id === selectedUser?._id && "bg-base-100"} hover:bg-base-100  px-4 text-start transition-all flex justify-between gap-4 items-center hover:text-lg`} key={user._id}>
+                                        className={`py-2 ${user._id === selectedUser?._id && "bg-base-100"} w-full rounded-lg hover:bg-base-100  px-4 text-start transition-all flex justify-between gap-4 items-center hover:text-lg`} key={user._id}>
                                         <div className='flex justify-start'>
                                             <div className='h-8 w-8 rounded-full mr-4 bg-white flex flex-col-reverse items-end'>
                                                 {onlineUsers.includes(user._id) && <div className='bg-info h-2 w-2 rounded-full'></div>}
