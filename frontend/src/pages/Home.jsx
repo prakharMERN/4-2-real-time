@@ -406,7 +406,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                <div className='flex-1 h-full md:pl-60 w-full flex flex-col '>
+                <div className='flex-1 h-full md:pl-60 lg:pl-90 w-full flex flex-col '>
                     <div className='w-full h-full bg-base-100'>
                         {
                             selectedUser ?
