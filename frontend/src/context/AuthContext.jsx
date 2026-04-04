@@ -91,7 +91,7 @@ export const AuthProvider = ({ children }) => {
 
     const connectSoket = () => {
         try {
-            const socket = io('http://localhost:3000', {
+            const socket = io('https://four-2-real-time.onrender.com', {
                 withCredentials: true
             })
             setSocket(socket)
