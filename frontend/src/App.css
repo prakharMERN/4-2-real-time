@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+/* @plugin "daisyui" {
+  themes: nord, cupcake, abyss,forest,dracula,black,light --default,dark;
+} */
+
+@plugin "daisyui" {
+  themes: light,dark,black,dracula,abyss,forest,nord;
+}
+  
