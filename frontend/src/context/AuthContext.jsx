@@ -8,7 +8,7 @@ export const AuthProvider = ({ children }) => {
 
     const [isCheckingAuth, setIsCheckingAuth] = useState(true)
     const [user, setUser] = useState(null)
-    const [isAuthorized, setIsAuthorized] = useState(true)
+    const [isAuthorized, setIsAuthorized] = useState(false)
     const [isLoggingIn, setIsLoggingIn] = useState(false)
     const [isRegistering, setIsRegistering] = useState(false)
     const [socket, setSocket] = useState(null)
