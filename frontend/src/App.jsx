@@ -15,7 +15,7 @@ const App = () => {
 
 
 	return (
-		<div data-theme='forest'>
+		<div data-theme='light'>
 			<AuthProvider>
 
 				<BrowserRouter>
