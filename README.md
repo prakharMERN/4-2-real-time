@@ -7,7 +7,9 @@ A full-stack real-time private chat application built using the MERN stack with 
 
 ## 🚀 Live Demo
 
-🔗 Add your deployed frontend link here
+
+[Real-Time Chat Application](https://prakhar-real-time.vercel.app/?utm_source=chatgpt.com)
+
 
 ---
 
